@@ -88,7 +88,7 @@ This guide covers various deployment options for the Sync-Talk real-time chat ap
 ```env
 NODE_ENV=production
 PORT=5000
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/synctalk
+MONGODB_URI= your url
 JWT_SECRET=your_super_secret_jwt_key_minimum_32_characters
 FRONTEND_URL=https://your-frontend-domain.com
 ```
